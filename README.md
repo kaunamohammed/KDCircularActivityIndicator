@@ -28,6 +28,26 @@ You can easily customize the animation with the following self-descriptive prope
 - `lineDash`: The pattern used to draw the line
 - `colors`: The colors to add to the indicator
 
+Initialize the indicator like this or any other way you want
+```swift
+lazy var activityIndicator: KDCircularActivityIndicator = {
+        let indicator = KDCircularActivityIndicator()
+        indicator.colors = [.red, .blue]
+        indicator.translatesAutoresizingMaskIntoConstraints = false
+        return indicator
+    }()
+```
+
+Call startAnimating() to you know what 
+```swift
+activityIndicator.startAnimating()
+```
+
+Call stopAnimating() to you also know what 
+```swift
+activityIndicator.stopAnimating()
+```
+
 ## Author
 
 This framework was written by Kauna Mohammed. 
