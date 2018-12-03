@@ -59,6 +59,6 @@ The API of KDCircularActivityIndicator has been designed to be as close as possi
 
 ## License
 
-KDCircularActivityIndicator is available under the MIT license. See the LICENSE file for more info.
+KDCircularActivityIndicator is available under the MIT license. See the [LICENSE](https://github.com/kaunamohammed/KDCircularActivityIndicator/blob/master/LICENSE) file for more info.
 
 [dtcircularActivityIndicator-objc-url]: https://github.com/ducthinh2410/DTCircularActivityIndicator 
