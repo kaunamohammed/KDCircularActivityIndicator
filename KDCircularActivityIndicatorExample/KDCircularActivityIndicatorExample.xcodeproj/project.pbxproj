@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB9278D21B5CECC00E9D86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB9278C21B5CECC00E9D86A /* AppDelegate.swift */; };
+		FCB9278F21B5CECC00E9D86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB9278E21B5CECC00E9D86A /* ViewController.swift */; };
+		FCB9279421B5CED500E9D86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB9279321B5CED500E9D86A /* Assets.xcassets */; };
+		FCB9279721B5CED500E9D86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB9279521B5CED500E9D86A /* LaunchScreen.storyboard */; };
+		FCFCD4EB21B5D4B3001A0B5B /* Pods_KDCircularActivityIndicatorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1FCA3415B480CE2A0F12D /* Pods_KDCircularActivityIndicatorExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AE1FCA3415B480CE2A0F12D /* Pods_KDCircularActivityIndicatorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDCircularActivityIndicatorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC43587F2932195BD5238E /* Pods-KDCircularActivityIndicatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDCircularActivityIndicatorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDCircularActivityIndicatorExample/Pods-KDCircularActivityIndicatorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B833972CC5E1F7C689AA98DE /* Pods-KDCircularActivityIndicatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDCircularActivityIndicatorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KDCircularActivityIndicatorExample/Pods-KDCircularActivityIndicatorExample.release.xcconfig"; sourceTree = "<group>"; };
+		FCB9278921B5CECC00E9D86A /* KDCircularActivityIndicatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDCircularActivityIndicatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB9278C21B5CECC00E9D86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCB9278E21B5CECC00E9D86A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCB9279321B5CED500E9D86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB9279621B5CED500E9D86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCB9279821B5CED500E9D86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFCD4E621B5D44D001A0B5B /* KDCircularActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KDCircularActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFCD4F021B5D583001A0B5B /* KDCircularActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KDCircularActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB9278621B5CECC00E9D86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFCD4EB21B5D4B3001A0B5B /* Pods_KDCircularActivityIndicatorExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98330B36D0F167DB81282538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFCD4F021B5D583001A0B5B /* KDCircularActivityIndicator.framework */,
+				FCFCD4E621B5D44D001A0B5B /* KDCircularActivityIndicator.framework */,
+				2AE1FCA3415B480CE2A0F12D /* Pods_KDCircularActivityIndicatorExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0061070AACBDF01F7B9D4E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC43587F2932195BD5238E /* Pods-KDCircularActivityIndicatorExample.debug.xcconfig */,
+				B833972CC5E1F7C689AA98DE /* Pods-KDCircularActivityIndicatorExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCB9278021B5CECC00E9D86A = {
+			isa = PBXGroup;
+			children = (
+				FCB9278B21B5CECC00E9D86A /* KDCircularActivityIndicatorExample */,
+				FCB9278A21B5CECC00E9D86A /* Products */,
+				C0061070AACBDF01F7B9D4E9 /* Pods */,
+				98330B36D0F167DB81282538 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB9278A21B5CECC00E9D86A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB9278921B5CECC00E9D86A /* KDCircularActivityIndicatorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB9278B21B5CECC00E9D86A /* KDCircularActivityIndicatorExample */ = {
+			isa = PBXGroup;
+			children = (
+				FCB9278C21B5CECC00E9D86A /* AppDelegate.swift */,
+				FCB9278E21B5CECC00E9D86A /* ViewController.swift */,
+				FCB9279321B5CED500E9D86A /* Assets.xcassets */,
+				FCB9279521B5CED500E9D86A /* LaunchScreen.storyboard */,
+				FCB9279821B5CED500E9D86A /* Info.plist */,
+			);
+			path = KDCircularActivityIndicatorExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB9278821B5CECC00E9D86A /* KDCircularActivityIndicatorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB9279B21B5CED500E9D86A /* Build configuration list for PBXNativeTarget "KDCircularActivityIndicatorExample" */;
+			buildPhases = (
+				2183CFA3F24E6ECD14AEEE37 /* [CP] Check Pods Manifest.lock */,
+				FCB9278521B5CECC00E9D86A /* Sources */,
+				FCB9278621B5CECC00E9D86A /* Frameworks */,
+				FCB9278721B5CECC00E9D86A /* Resources */,
+				F356868806E1B314EDB39E65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDCircularActivityIndicatorExample;
+			productName = KDCircularActivityIndicatorExample;
+			productReference = FCB9278921B5CECC00E9D86A /* KDCircularActivityIndicatorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB9278121B5CECC00E9D86A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kauna Mohammed";
+				TargetAttributes = {
+					FCB9278821B5CECC00E9D86A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FCB9278421B5CECC00E9D86A /* Build configuration list for PBXProject "KDCircularActivityIndicatorExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB9278021B5CECC00E9D86A;
+			productRefGroup = FCB9278A21B5CECC00E9D86A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB9278821B5CECC00E9D86A /* KDCircularActivityIndicatorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB9278721B5CECC00E9D86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB9279721B5CED500E9D86A /* LaunchScreen.storyboard in Resources */,
+				FCB9279421B5CED500E9D86A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2183CFA3F24E6ECD14AEEE37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDCircularActivityIndicatorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F356868806E1B314EDB39E65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KDCircularActivityIndicatorExample/Pods-KDCircularActivityIndicatorExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KDCircularActivityIndicator/KDCircularActivityIndicator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularActivityIndicator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KDCircularActivityIndicatorExample/Pods-KDCircularActivityIndicatorExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB9278521B5CECC00E9D86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB9278F21B5CECC00E9D86A /* ViewController.swift in Sources */,
+				FCB9278D21B5CECC00E9D86A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCB9279521B5CED500E9D86A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB9279621B5CED500E9D86A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB9279921B5CED500E9D86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCB9279A21B5CED500E9D86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB9279C21B5CED500E9D86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEC43587F2932195BD5238E /* Pods-KDCircularActivityIndicatorExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG9RTC2HJD;
+				INFOPLIST_FILE = KDCircularActivityIndicatorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdmohammed.KDCircularActivityIndicatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB9279D21B5CED500E9D86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B833972CC5E1F7C689AA98DE /* Pods-KDCircularActivityIndicatorExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG9RTC2HJD;
+				INFOPLIST_FILE = KDCircularActivityIndicatorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdmohammed.KDCircularActivityIndicatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB9278421B5CECC00E9D86A /* Build configuration list for PBXProject "KDCircularActivityIndicatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB9279921B5CED500E9D86A /* Debug */,
+				FCB9279A21B5CED500E9D86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB9279B21B5CED500E9D86A /* Build configuration list for PBXNativeTarget "KDCircularActivityIndicatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB9279C21B5CED500E9D86A /* Debug */,
+				FCB9279D21B5CED500E9D86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB9278121B5CECC00E9D86A /* Project object */;
+}

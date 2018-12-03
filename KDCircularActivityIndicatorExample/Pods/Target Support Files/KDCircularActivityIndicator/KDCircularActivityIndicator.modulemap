@@ -1,0 +1,6 @@
+framework module KDCircularActivityIndicator {
+  umbrella header "KDCircularActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

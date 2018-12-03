@@ -1,0 +1,16 @@
+PODS:
+  - KDCircularActivityIndicator (1.0.0)
+
+DEPENDENCIES:
+  - KDCircularActivityIndicator (from `../KDCircularActivityIndicator/`)
+
+EXTERNAL SOURCES:
+  KDCircularActivityIndicator:
+    :path: "../KDCircularActivityIndicator/"
+
+SPEC CHECKSUMS:
+  KDCircularActivityIndicator: 535917ac429f61dd80f8cb5f657640907a782c79
+
+PODFILE CHECKSUM: 8d23cb9104f515ba159550026edc11a7927528f1
+
+COCOAPODS: 1.5.3
